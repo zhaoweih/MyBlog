@@ -8,30 +8,30 @@ This repo is the source code of [my blog](http://zhaoweihao.me) , simply bulit w
 git clone https://github.com/zhaoweihaoChina/myblog.git
 ```
 
-###Bulid
+### Bulid
 
-#####Install Hexo
+##### Install Hexo
 
 ```
 npm install -g hexo-cli
 ```
 
-#####Install dependencies
+##### Install dependencies
 
 ```
 npm install
 ```
 
-#####Run
+##### Run
 
 ```
 hexo generate
 hexo server
 ```
 
-#####Now you can go to [localhost:4000](localhost:4000) and check .
+##### Now you can go to [localhost:4000](localhost:4000) and check .
 
-##More
+## More
 
 If you want to bulid your own blog with hexojs, you can check this [article](http://www.jianshu.com/p/0a234a805233) .
 
