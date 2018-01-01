@@ -4,14 +4,38 @@
 
 # Site
 title: Zhao Weihao 's Blog
-subtitle: 
-description: share Android knowledge and my life
+subtitle: 追求自由的少年
+description: 追求自由的少年
 author: Zhao Weihao
 language: en
 timezone: Asia/Shanghai
+email: zhaoweihaochn@gmail.com
+keywords: zhaoweihao
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
 # URL
-url: http://yoursite.com/
+url: http://zhaoweihao.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -62,7 +86,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
