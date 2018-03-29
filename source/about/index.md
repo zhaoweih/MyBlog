@@ -19,7 +19,7 @@ type: "about"
 
 ### 简历
 
-[PDF初定版](../resume/xxx.pdf)
+[PDF初定版](http://zhaoweihao.com/resume/xxx.pdf)
 
 ### 最喜欢的句子
 
@@ -33,3 +33,5 @@ Email:zhaoweihaochn@foxmail.com
 
 
 
+### 小伙伴们
+[毛灿华](http://maocanhua.cn/)：专注 Web 前端开发，react技术栈
