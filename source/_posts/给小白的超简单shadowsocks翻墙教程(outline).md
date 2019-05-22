@@ -1,9 +1,11 @@
 ---
-title: '给小白的超简单shadowsocks翻墙教程'
+title: '给小白的超简单shadowsocks翻墙教程(outline)'
 date: 2019-05-22 11:30:32
 tags: [shadowsocks,outline,翻墙]
 categories: 翻墙
 ---
+原文地址：https://github.com/zhaoweih/Shadowsocks-Tutorial/blob/master/super_easy_shadowsocks_tutorial.md  
+
 # 给小白的超简单shadowsocks翻墙教程
 
 # 前言
