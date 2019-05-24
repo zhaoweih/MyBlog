@@ -9,8 +9,8 @@ description: 追求自由的少年
 author: Zhao Weihao
 language: zh-CN
 timezone: Asia/Shanghai
-email: zhaoweihaochn@gmail.com
-keywords: zhaoweihao
+email: zhaoweihao.dev@gmail.com
+keywords: zhao weihao,shadowsocks,android
 feed:
   type: atom
   path: atom.xml
@@ -35,7 +35,7 @@ jsonContent:
     tags: true
 
 # URL
-url: http://zhaoweihao.me
+url: https://zhaoweihao.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -97,7 +97,7 @@ githubEmojis:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git   
-  repository: https://github.com/zhaoweihaoChina/zhaoweihaoChina.github.io.git
-  branch: master
+#deploy:
+#  type: git   
+#  repository: https://github.com/zhaoweihaoChina/zhaoweihaoChina.github.io.git
+#  branch: master
