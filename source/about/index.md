@@ -26,7 +26,9 @@ Linkedin:https://www.linkedin.com/in/zhaoweihao/?locale=en_US
 
 Github:https://github.com/zhaoweih
 
-Resume(English):http://sg.zhaoweihao.ml:8082/resume/resume_0614_en.pdf
+简历(🀄️):https://resource.zhaoweihao.dev/resume/resume_cn.pdf
+
+Resume(English):https://resource.zhaoweihao.dev/resume/resume_en.pdf
 
 ### 如何找我
 邮箱📮:zhaoweihao.dev@gmail.com
