@@ -32,3 +32,8 @@ Resume(English):https://resource.zhaoweihao.dev/resume/resume_en.pdf
 
 ### 如何找我
 邮箱📮:zhaoweihao.dev@gmail.com
+
+### 博客搭建
+使用Hexo搭建
+部署在Netlify
+
