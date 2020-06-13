@@ -1,2 +1,3 @@
-## 博客源文件
-### 主题：Indigo
+Blog source files built with Hexo, deploy in Netlify
+
+PR is Welcome!
