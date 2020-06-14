@@ -36,4 +36,4 @@ Resume(English):https://resource.zhaoweihao.dev/resume/resume_en.pdf
 ### 博客搭建
 使用Hexo搭建
 部署在Netlify
-
+域名解析托管在Cloudflare
