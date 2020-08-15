@@ -27,11 +27,13 @@ type: "pay"
 
 <br /><br /><br /><br /><br />
 
-##### BitCoin(比特币)
+##### 数字货币
 
-比特币钱包地址💴:`bc1qjt7hvetttxzc089yjulmscfea64splzvh4rhsmfemtp58a0xly8qeqfhvw`
+USDT-TRC20地址💴:`TYERF1vArr9cwqhTvkvNi5LzGrGSVQhxTk`
 
+ETH地址💴:`0x1a7a984c76b0c32bcb12aaf72124ca29476c04ec`
 
+BTC地址💴:`bc1qjt7hvetttxzc089yjulmscfea64splzvh4rhsmfemtp58a0xly8qeqfhvw`
 
 #### 联系方式
   如果对赞赏有任何疑问可以给我发送邮件📫：zhaoweihao.dev@gmail.com
