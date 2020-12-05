@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Zhao Weihao 's Blog
+title: Chiu Waiho 's Blog
 subtitle: 追求自由的少年
 description: 追求自由的少年
-author: Zhao Weihao
+author: Chiu Waiho
 language: en
 timezone: Asia/Shanghai
 email: zhaoweihao.dev@gmail.com
-keywords: zhao weihao,shadowsocks,android
+keywords: Chiu Waiho,zhao weihao,shadowsocks,android
 feed:
   type: atom
   path: atom.xml
@@ -35,7 +35,7 @@ jsonContent:
     tags: true
 
 # URL
-url: https://zhaoweihao.com
+url: https://blog.chiuwaiho.tech/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

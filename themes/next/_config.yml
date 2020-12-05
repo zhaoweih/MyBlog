@@ -519,7 +519,7 @@ pangu: false
 # Disqus
 disqus:
   enable: true
-  shortname: zhaoweihaos-blog
+  shortname: chiuwaiho
   count: true
   lazyload: false
 
