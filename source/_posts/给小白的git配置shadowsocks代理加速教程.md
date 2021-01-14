@@ -11,7 +11,7 @@ categories: shadowsocks
 
 先看看加速的效果:
 
-![](./git/git.png)
+![](./images/git/git.png)
 
 以拉取telegram仓库为例，加速前使用电信直连大概在**8KB/s**左右，拉完项目不知道何年何月了，下面是加速后的效果，大概是**2.57MB/s**左右(这个跟你的代理服务器有关,我的代理服务器是30Mbps的)，clone个仓库喝口茶的时间都不用。
 
@@ -25,7 +25,7 @@ categories: shadowsocks
 
 以windows为例，右键shadowsocks小飞机图标找到**编辑服务器**就能看到
 
-![](./git/port.png)
+![](./images/git/port.png)
 
 #### 2.设置git全局代理端口
 
