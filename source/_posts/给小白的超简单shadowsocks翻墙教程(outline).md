@@ -6,11 +6,15 @@ categories: 翻墙
 ---
 原文地址：https://github.com/zhaoweih/Shadowsocks-Tutorial/blob/master/super_easy_shadowsocks_tutorial.md  
 
-# 给小白的超简单shadowsocks翻墙教程
+# 给小白的超简单shadowsocks翻墙教程(备用教程)
+
+# 问题
+
+❓如果对文章有任何疑问可以提到:https://github.com/zhaoweih/Shadowsocks-Tutorial/issues
 
 # 前言
 
-  由于秋水逸冰大佬的退出，所以旧教程使用的一键安装shadowsocks脚本可能在未来的某一天也不管用了。出于这个原因，我又写了这篇文章用来给大家作为备用教程，这篇文章使用的是[Google Jigsaw](https://jigsaw.google.com/)团队制作的同样也是shadowsocks的一键脚本，由于是Google制作，所以迫于某些压力退出的可能性不大，个人认为可以作为长期的备用教程。
+  由于秋水逸冰大佬的退出，所以旧教程使用的一键安装shadowsocks脚本可能在未来的某一天也不管用了。出于这个原因，我又写了一篇文章用来给大家作为备用教程，这篇文章使用的是[Google Jigsaw](https://jigsaw.google.com/)团队制作的同样也是shadowsocks的一键脚本，由于是Google制作，所以迫于某些压力退出的可能性不大，个人认为可以作为长期的备用教程。
 
 # 开始
 
@@ -22,23 +26,23 @@ categories: 翻墙
 
 Vultr推荐链接：https://www.vultr.com/?ref=7370522
 
-这里我比较推荐Vultr，为什么呢？因为他有日本服务器，延迟低，掉包也低；**但是我会推荐大学生使用DigitalOcean（以下简称DO），因为Github学生包有DO优惠劵，但是只限于大学生领取，如果是学生可以查看这边[文章](https://www.flyzy2005.com/vps/digitalocean-github-student-promo/)。**注册登录后先充值5美金，用paypal绑定国内银行卡可以最低充值5美金，当然也有支付宝，支付宝要最低10美金。
+这里我比较推荐Vultr，为什么呢？因为他有日本服务器，延迟低，掉包也低；注册登录后先充值5美金，用paypal绑定国内银行卡可以最低充值5美金，当然也有支付宝，支付宝要最低10美金。
 
 ![](/images/1.png)
 
 ### 2、部署服务器
 
-第一步：在个人页面点击Servers然后再点右面的➕号按钮添加一个服务器
+第一步：在个人页面点击Products然后再点右面的➕号按钮添加一个服务器
 
 ![](/images/2.png)
 
-第二步：在打开的页面选择洛杉矶Los Angeles服务器（由于日本服务器滥用导致很多IP被封了，建议电信用户可以选择洛杉矶或者伦敦），如果喜欢其他服务器也可以选择，后续操作是一样一样的
+第二步：在打开的页面选择德国Frankfurt服务器（由于日本服务器滥用导致很多IP被封了，可以选择欧洲服务器，例如法国、德国等），如果喜欢其他服务器也可以选择，后续操作是一样一样的
 
-![](/images/super_easy_shadowsocks_tutorial/1.png)
+![](/images/super_easy_shadowsocks_tutorial/de.png)
 
-第三步：接下来要注意了，系统最好选择Ubuntu，点击Ubuntu可以下拉选择18.04 x64（建议和我选择一样，避免问题出现）
+第三步：接下来要注意了，系统最好选择Debian，点击**Debian**可以下拉选择**10 x64**（建议和我选择一样，避免问题出现）
 
-![](/images/super_easy_shadowsocks_tutorial/2.png)
+![](/images/system_select_debian.png)
 
 第四步：选择套餐，当然ss不需要配置太高的服务器，最低配置5美金一个月的就可以了，反正我每次看2.5美金都是卖光的，如果你能看到那赶紧选啊，千年一遇。
 
@@ -164,11 +168,11 @@ Linux版：https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master
 
 下面是各个终端的下载地址（我用过Windows,MAC,Android,IOS操作起来都是差不多的。）：
 
-Windows：https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.6/Shadowsocks-4.1.6.zip
+Windows：https://github.com/shadowsocks/shadowsocks-windows/releases
 
-MAC:https://github.com/shadowsocks/ShadowsocksX-NG/releases/download/v1.8.2/ShadowsocksX-NG.app.1.8.2.zip
+Android:https://github.com/shadowsocks/shadowsocks-android/releases
 
-Android:https://github.com/shadowsocks/shadowsocks-android/releases/download/v4.7.4/shadowsocks--universal-4.7.4.apk
+MAC:https://github.com/shadowsocks/ShadowsocksX-NG/releases
 
 Linux:https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation
 
@@ -195,6 +199,7 @@ IOS:
 3.在AppStore搜索**Potatso Lite**安装
 
 注：或者其他支持shadowsocks的APP也可以，这里比较推荐Potatso Lite
+
 - [Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8)
 
 下面以windows为例演示：
@@ -230,7 +235,9 @@ PAC模式就是访问国内网站会走国内IP，访问被封的网站走服务
 ![](/images/super_easy_shadowsocks_tutorial/22.png)
 
 # 讨论
+
 ## Discord
+
 **我创建了一个discord聊天室，遇到问题的小伙伴可以一起讨论**
 [![alt text](/images/discord.svg  "discordapp")](https://discord.gg/wHFxCVk)
 
@@ -240,12 +247,10 @@ PAC模式就是访问国内网站会走国内IP，访问被封的网站走服务
 
 # 关于
 
-我是一名普通的大学学生，一个追求自由的少年，如果想要找我，可以给我发邮件📧
+我是一名初入社会的社畜，一个追求自由的少年，如果想要找我，可以给我发邮件📧
 
 📮我的邮箱：zhaoweihao.dev@gmail.com
 
-
-
 # 赞赏
 
-作为学生我目前生活还是蛮自如的，有吃的有喝的，就不用赞赏了。喜欢就给我个star或者fork一下吧❤️，谢谢！
+我目前生活还是蛮自如的，有吃的有喝的，就不用赞赏了。喜欢就给我个star或者fork一下吧❤️，谢谢！
